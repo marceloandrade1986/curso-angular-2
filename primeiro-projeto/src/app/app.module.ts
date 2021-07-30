@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { MeuPrimeiroComponent } from './meu-primeiro/meu-primeiro-component';
+import { MeuQuartoComponent } from './meu-primeiro/meu-quarto-component';
 import { MeuSegundoComponent } from './meu-primeiro/meu-segundo-component';
 import { MeuTerceiroComponent } from './meu-primeiro/meu-terceiro-component';
 
@@ -11,7 +12,8 @@ import { MeuTerceiroComponent } from './meu-primeiro/meu-terceiro-component';
     AppComponent,
     MeuPrimeiroComponent,
     MeuSegundoComponent,
-    MeuTerceiroComponent
+    MeuTerceiroComponent,
+    MeuQuartoComponent
   ],
   imports: [
     BrowserModule
