@@ -1,3 +1,11 @@
 <h1>Cursos module works!</h1>
 
+<p>Lista de cursos do portal {{ nomePortal }}</p>
+
+<ul>
+    <li *ngFor="let curso of cursos">
+        {{ curso }}
+    </li>
+</ul>
+
 <app-curso-detalhe></app-curso-detalhe>
