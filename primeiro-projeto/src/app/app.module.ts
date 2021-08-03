@@ -8,6 +8,7 @@ import { MeuQuartoComponent } from './meu-primeiro/meu-quarto-component';
 import { MeuSegundoComponent } from './meu-primeiro/meu-segundo-component';
 import { MeuTerceiroComponent } from './meu-primeiro/meu-terceiro-component';
 import { PessoaModule } from './pessoa/pessoa.module';
+import { CarroModule } from './carro/carro.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { PessoaModule } from './pessoa/pessoa.module';
   imports: [
     BrowserModule,
     CursosModule,
-    PessoaModule
+    PessoaModule,
+    CarroModule
   ],
   providers: [],
   bootstrap: [AppComponent]
